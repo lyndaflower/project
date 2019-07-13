@@ -1,0 +1,163 @@
+body{
+    font-size : 20px;
+    font-family: inherit;
+    background-image : url("https://www.osha.gov/preventingsuicides/images/PreventingSuicideBG.jpg");
+    background-repeat: no-repeat;
+    background-size : cover;
+  }
+  .container{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  nav{
+    max-width: 960%;
+    margin: 0 auto;
+    margin-right: 0%;
+  }
+  nav>ul{
+    text-align: right;
+    background-color: #1A5276;
+  }
+    nav>ul>li{
+      display: inline-block;
+    }
+    nav>ul>li>a{
+      float: right;
+      padding: 10px;
+      color: white;
+      display: block;
+      text-transform: uppercase;
+      text-decoration : none;
+  }
+  nav>ul>li>a:hover{
+    background-color: white;
+    color: #034f84;
+  }
+  .container a.active{
+    background-color: white;
+    color: #034f84;
+  }
+  #photo{
+    flex-wrap : reverse;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .home{
+    float : left;
+    width :65%;
+  }
+  header{
+    text-align : left;
+  }
+  #image{
+    float: right;
+    height: 200px;
+    width: 300px;
+  }
+  h1{
+    text-align: center
+  }
+  h2{
+    float : right;
+    margin: 0;
+    font-family: georgia, sans-serif;
+  }
+  #con{
+    float : right;
+    margin : 26px;
+   }
+  p{
+     margin-top:5px;
+    margin-bottom:10px;
+    font-size:0.9em;
+    text-align:center;
+  }
+  #image1{
+    flex-wrap: wrap;
+    margin-left: 6px;
+    justify-content:space-between
+  }
+  footer{
+   background-color: #A04000;
+    text-align : right;
+    display : flex;
+    color : black;
+    padding:10px;
+  }
+  #style{
+    background-color : rgba(255, 99, 71, 0.4);
+    float : right;
+    margin-left: 10px;
+    width : 62%;
+    padding-block-start : 10px;
+  }
+  #conent{
+    float: inherit;
+    background-color : rgba(255, 99, 71, 0.2);
+    width :900px;
+    height : 300;
+  }
+  #loggo{
+    float: left;
+    width: 200px;
+    height: 100px;
+  }
+  #more{
+    background-color : white;
+    float : inherit;
+    margin-left: 26px;
+    width : 67%;
+  }
+  #most{
+    background-color : rgba(255, 99, 71, 0.4);
+    float: left;
+    margin-right : 10px;
+    width : 30%;
+    height : 30%;
+  }
+  #description{
+    background-color: rgba(255, 99, 71, 0.4);
+    float : right;
+    margin :10px;
+  }
+  #list{
+    background-color : gray;
+    float : right;
+  }
+  input[type=text], select, textarea {
+    width: 96%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:#034f84 ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:#034f84 ;
+  }
+  
+  .contact {
+    border-radius: 20px;
+    background-color: ;
+    padding: 200px;
+  }
+  .photo{
+    display: flex;
+    justify-content:space-between;
+  }
+  
